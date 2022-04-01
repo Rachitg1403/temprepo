@@ -1,5 +1,3 @@
-#configure azure provider
-
 terraform {
   required_providers {
     azurerm = {
@@ -483,21 +481,19 @@ resource "azurerm_template_deployment" "example" {
 
 DEPLOY
 
-
-  # these key-value pairs are passed into the ARM Template's `parameters` block
     parameters = {
-   "WebsiteName" = "uniwebnate7835"
-    "MHC_ServerName" = "MHCServNtest647"
-    "MHC_DBLogin" = "mohit1"
+   "WebsiteName" = "uniwebndhjate7835"
+    "MHC_ServerName" = "MHCSergrcvNtest647"
+    "MHC_DBLogin" = "mohit12"
     "MHC_DBPassword" = "Guptarachit@195"
     "MHC_DBPasswordForTest" = "Guptarachit@195"
     "MHC_DBName" = "MyHealthClinicDB"
     "MHC_DBCollation" = "SQL_Latin1_General_CP1_CI_AS"
     "MHC_DBEdition" = "Basic"
-    "MHC_HostingPlanName" = "MHCHostPlanN143257"
+    "MHC_HostingPlanName" = "MHCHostPlanN14w3257"
     "MHC_HostingPlanSKU" = "Standard"
     "MHC_HostingPlanWorkerSize" = "0"
-    EnableRules = null
+    "EnableRules" = null
   }
   deployment_mode = "Incremental"
 }
