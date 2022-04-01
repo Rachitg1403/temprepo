@@ -493,7 +493,7 @@ DEPLOY
     "MHC_HostingPlanName" = "MHCHostPlanN14w3257"
     "MHC_HostingPlanSKU" = "Standard"
     "MHC_HostingPlanWorkerSize" = "0"
-    "EnableRules" = null
+    EnableRules = null
   }
   deployment_mode = "Incremental"
 }
